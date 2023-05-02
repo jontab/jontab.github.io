@@ -1,0 +1,33 @@
+baseurl      = "https://jta.sh"
+languageCode = "en-us"
+theme        = "terminal"
+paginate     = 5
+copyright    = "Copyright © 2023 Jonathan Abbott"
+
+[params]
+  contentTypeName      = "posts"
+  themeColor           = "red"
+  showMenuItems        = 2
+  showLanguageSelector = false
+  fullWidthTheme       = false
+  centerTheme          = true
+  autoCover            = false
+
+[languages]
+  [languages.en]
+    languageName           = "English"
+    title                  = "Byte Aligned"
+    owner                  = "Jonathan Abbott"
+    menuMore               = "Show more"
+    readMore               = "Read more"
+    readOtherPosts         = "Read other posts"
+    newerPosts             = "Newer posts"
+    olderPosts             = "Older posts"
+    missingContentMessage  = "Page not found..."
+    missingBackButtonLabel = "Back to home page"
+    minuteReadingTime      = "min read"
+    words                  = "words"
+
+    [languages.en.params.logo]
+      logoText     = "Byte Aligned"
+      logoHomeLink = "/"
