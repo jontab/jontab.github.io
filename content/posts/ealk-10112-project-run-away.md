@@ -4,6 +4,7 @@ date   = "2023-05-01"
 author = "Jon"
 cover  = "ealk-10112-project-run-away.jpg"
 tags   = ["ealk-10112-project"]
+draft  = true
 +++
 
 # 비디오
