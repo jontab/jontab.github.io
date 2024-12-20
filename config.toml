@@ -1,12 +1,15 @@
-baseurl      = "https://jta.sh"
-languageCode = "en-us"
-theme        = "terminal"
-paginate     = 5
-copyright    = "Copyright © 2023 Jonathan Abbott"
+baseurl         = "https://jta.sh"
+languageCode    = "en-us"
+theme           = "terminal"
+copyright       = "Copyright © 2023 Jonathan Abbott"
+googleAnalytics = "G-393RR0N270"
+
+[pagination]
+  pagerSize = 5
 
 [params]
   contentTypeName      = "posts"
-  themeColor           = "red"
+  themeColor           = "blue"
   showMenuItems        = 2
   showLanguageSelector = false
   fullWidthTheme       = false
@@ -16,7 +19,7 @@ copyright    = "Copyright © 2023 Jonathan Abbott"
 [languages]
   [languages.en]
     languageName           = "English"
-    title                  = "Byte Aligned"
+    title                  = "jta.sh"
     owner                  = "Jonathan Abbott"
     menuMore               = "Show more"
     readMore               = "Read more"
@@ -29,5 +32,11 @@ copyright    = "Copyright © 2023 Jonathan Abbott"
     words                  = "words"
 
     [languages.en.params.logo]
-      logoText     = "Byte Aligned"
+      logoText     = "jta.sh"
       logoHomeLink = "/"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
